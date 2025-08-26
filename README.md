@@ -12,4 +12,4 @@ The code was tested with Python 3.12 and R 4.5.0
 ├── xai_presence_bootstrapping.r
 ```
 
-Run R scripts ai_cohort_bootstrapping.r, xai_cohort_bootstrapping.r, xai_presence_bootstrapping.r to perform mediation analysis for Supplementary Diagrams 4, 5, and 6, respectively. 
+Run R scripts [ai_cohort_bootstrapping.r](https://github.com/jacie-cheng/FacialXAI_Mediation_Analysis/blob/main/final_ai_cohort_bootstrapping.r), [xai_cohort_bootstrapping.r](https://github.com/jacie-cheng/FacialXAI_Mediation_Analysis/blob/main/final_xai_cohort_bootstrapping.r), [xai_presence_bootstrapping.r](https://github.com/jacie-cheng/FacialXAI_Mediation_Analysis/blob/main/final_ai_presence_bootstrapping.r) to perform mediation analysis for Supplementary Figures 6A, 6B, and 6C and create Supplementary Tables 4, 5, and 6. 
