@@ -1,0 +1,397 @@
+,participant,question,Q1_original,Q2,Q3_original,Q4,Q5,Disease,Classifier_Answer,Classifier_Acc,Follows_AI,Q1,Q3,Acc_Improve,Conf_Improve,User_Diff
+0,1,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+1,2,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,-2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+2,3,1,Kabuki syndrome,1.0,Kabuki syndrome,1.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+3,4,1,Kabuki syndrome,1.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+4,5,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+5,6,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+6,7,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+7,8,1,Noonan syndrome,1.0,Kabuki syndrome,0.0,1.0,Kabuki,Kabuki,Correct,1,0,1,1,-1,High_Acc
+8,9,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,-2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+9,10,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+10,11,1,Unaffected,-1.0,Kabuki syndrome,0.0,0.0,Kabuki,Kabuki,Correct,1,0,1,1,1,High_Acc
+11,12,1,Kabuki syndrome,1.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+12,13,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+13,14,1,Kabuki syndrome,1.0,Kabuki syndrome,1.0,-2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+14,15,1,Kabuki syndrome,1.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+15,16,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+16,17,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+17,18,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+18,19,1,Kabuki syndrome,1.0,Kabuki syndrome,1.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+19,20,1,Kabuki syndrome,-2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,4,High_Acc
+20,21,1,Kabuki syndrome,1.0,Kabuki syndrome,2.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+21,22,1,Kabuki syndrome,0.0,Kabuki syndrome,1.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+22,23,1,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+28,1,2,Angelman syndrome,-1.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,3,Low_Acc
+29,2,2,Angelman syndrome,0.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+30,3,2,22q11.2 deletion syndrome,0.0,Angelman syndrome,-1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,-1,Low_Acc
+31,4,2,Angelman syndrome,0.0,Angelman syndrome,1.0,0.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+32,5,2,22q11.2 deletion syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+33,6,2,Angelman syndrome,1.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+34,7,2,Angelman syndrome,0.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,2,Low_Acc
+35,8,2,Angelman syndrome,0.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+36,9,2,22q11.2 deletion syndrome,0.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+37,10,2,Angelman syndrome,2.0,Angelman syndrome,2.0,1.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+38,11,2,22q11.2 deletion syndrome,-1.0,Angelman syndrome,-1.0,0.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+39,12,2,Angelman syndrome,2.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+40,13,2,Angelman syndrome,0.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+41,14,2,22q11.2 deletion syndrome,-1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,2,Low_Acc
+42,15,2,Angelman syndrome,0.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+43,16,2,22q11.2 deletion syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+44,17,2,22q11.2 deletion syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+45,18,2,22q11.2 deletion syndrome,1.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,1,0,1,1,-1,Low_Acc
+46,19,2,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,0.0,Angelman,Angelman,Correct,-1,0,0,0,0,Low_Acc
+47,20,2,Angelman syndrome,2.0,Angelman syndrome,2.0,0.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+48,21,2,Angelman syndrome,1.0,Angelman syndrome,2.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+49,22,2,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,0.0,Angelman,Angelman,Correct,-1,0,0,0,0,Low_Acc
+50,23,2,Unaffected,0.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,1,0,1,1,2,Low_Acc
+56,1,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+57,2,3,Noonan syndrome,2.0,Noonan syndrome,2.0,-2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+58,3,3,Noonan syndrome,1.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+59,4,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+60,5,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+61,6,3,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+62,7,3,Noonan syndrome,2.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+63,8,3,Noonan syndrome,1.0,Noonan syndrome,1.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+64,9,3,Noonan syndrome,1.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+65,10,3,Noonan syndrome,1.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+66,11,3,Noonan syndrome,1.0,Noonan syndrome,0.0,0.0,Noonan,Noonan,Correct,0,1,1,0,-1,High_Acc
+67,12,3,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+68,13,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+69,14,3,Noonan syndrome,1.0,Noonan syndrome,1.0,-1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+70,15,3,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+71,16,3,Noonan syndrome,2.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+72,17,3,Noonan syndrome,2.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+73,18,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+74,19,3,Noonan syndrome,1.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+75,20,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+76,21,3,Noonan syndrome,1.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+77,22,3,Noonan syndrome,0.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+78,23,3,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+84,1,4,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+85,2,4,22q11.2 deletion syndrome,1.0,Unaffected,1.0,2.0,Unaffected,Unaffected,Correct,1,0,1,1,0,Low_Acc
+86,3,4,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+87,4,4,Unaffected,2.0,Unaffected,2.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,0,Low_Acc
+88,5,4,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,1.0,2.0,Unaffected,Unaffected,Correct,-1,0,0,0,-1,Low_Acc
+89,6,4,22q11.2 deletion syndrome,0.0,Unaffected,0.0,0.0,Unaffected,Unaffected,Correct,1,0,1,1,0,Low_Acc
+90,7,4,Unaffected,0.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,2,Low_Acc
+91,8,4,Unaffected,1.0,Unaffected,2.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+92,9,4,22q11.2 deletion syndrome,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,0,Low_Acc
+93,10,4,Unaffected,1.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+94,11,4,22q11.2 deletion syndrome,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,0,Low_Acc
+95,12,4,22q11.2 deletion syndrome,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,0,Low_Acc
+96,13,4,Noonan syndrome,0.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,1,Low_Acc
+97,14,4,Unaffected,0.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+98,15,4,Unaffected,0.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,2,Low_Acc
+99,16,4,22q11.2 deletion syndrome,2.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,-1,Low_Acc
+100,17,4,Unaffected,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,0,Low_Acc
+101,18,4,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+102,19,4,Unaffected,0.0,Unaffected,0.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,0,Low_Acc
+103,20,4,Kabuki syndrome,1.0,Kabuki syndrome,0.0,0.0,Unaffected,Unaffected,Correct,-1,0,0,0,-1,Low_Acc
+104,21,4,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+105,22,4,Unaffected,0.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,Low_Acc
+106,23,4,Williams syndrome,2.0,Unaffected,0.0,2.0,Unaffected,Unaffected,Correct,1,0,1,1,-2,Low_Acc
+112,1,5,Unaffected,1.0,Angelman syndrome,2.0,2.0,Unaffected,Angelman,Incorrect,1,1,0,-1,1,Low_Acc
+113,2,5,Unaffected,1.0,Unaffected,1.0,-2.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+114,3,5,Unaffected,1.0,Unaffected,1.0,-1.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+115,4,5,Unaffected,2.0,Unaffected,1.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,-1,Low_Acc
+116,5,5,Unaffected,2.0,Unaffected,1.0,1.0,Unaffected,Angelman,Incorrect,-1,1,1,0,-1,Low_Acc
+117,6,5,Unaffected,2.0,Unaffected,0.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,-2,Low_Acc
+118,7,5,Angelman syndrome,0.0,Angelman syndrome,1.0,2.0,Unaffected,Angelman,Incorrect,0,0,0,0,1,Low_Acc
+119,8,5,Unaffected,1.0,Unaffected,0.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,-1,Low_Acc
+120,9,5,Williams syndrome,1.0,Williams syndrome,-1.0,0.0,Unaffected,Angelman,Incorrect,-1,0,0,0,-2,Low_Acc
+121,10,5,Unaffected,2.0,Angelman syndrome,-1.0,-1.0,Unaffected,Angelman,Incorrect,1,1,0,-1,-3,Low_Acc
+122,11,5,Unaffected,0.0,Angelman syndrome,0.0,0.0,Unaffected,Angelman,Incorrect,1,1,0,-1,0,Low_Acc
+123,12,5,Unaffected,1.0,Angelman syndrome,0.0,1.0,Unaffected,Angelman,Incorrect,1,1,0,-1,-1,Low_Acc
+124,13,5,Unaffected,1.0,Unaffected,1.0,-1.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+125,14,5,Angelman syndrome,-2.0,Angelman syndrome,1.0,1.0,Unaffected,Angelman,Incorrect,0,0,0,0,3,Low_Acc
+126,15,5,Unaffected,0.0,Unaffected,0.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+127,16,5,Unaffected,1.0,Unaffected,2.0,-2.0,Unaffected,Angelman,Incorrect,-1,1,1,0,1,Low_Acc
+128,17,5,Williams syndrome,1.0,Angelman syndrome,0.0,0.0,Unaffected,Angelman,Incorrect,1,0,0,0,-1,Low_Acc
+129,18,5,Unaffected,0.0,Angelman syndrome,1.0,1.0,Unaffected,Angelman,Incorrect,1,1,0,-1,1,Low_Acc
+130,19,5,Unaffected,1.0,Unaffected,1.0,-1.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+131,20,5,Unaffected,0.0,Unaffected,0.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+132,21,5,Unaffected,1.0,Unaffected,1.0,-2.0,Unaffected,Angelman,Incorrect,-1,1,1,0,0,Low_Acc
+133,22,5,Williams syndrome,0.0,Williams syndrome,0.0,0.0,Unaffected,Angelman,Incorrect,-1,0,0,0,0,Low_Acc
+134,23,5,Unaffected,2.0,Unaffected,0.0,0.0,Unaffected,Angelman,Incorrect,-1,1,1,0,-2,Low_Acc
+140,1,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+141,2,6,Kabuki syndrome,1.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+142,3,6,Noonan syndrome,-1.0,Kabuki syndrome,1.0,1.0,Kabuki,Kabuki,Correct,1,0,1,1,2,High_Acc
+143,4,6,Kabuki syndrome,1.0,Kabuki syndrome,1.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+144,5,6,Kabuki syndrome,1.0,Kabuki syndrome,1.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+145,6,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+146,7,6,Kabuki syndrome,1.0,Kabuki syndrome,2.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+147,8,6,Noonan syndrome,0.0,Noonan syndrome,0.0,0.0,Kabuki,Kabuki,Correct,-1,0,0,0,0,High_Acc
+148,9,6,22q11.2 deletion syndrome,1.0,Kabuki syndrome,1.0,2.0,Kabuki,Kabuki,Correct,1,0,1,1,0,High_Acc
+149,10,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+150,11,6,Kabuki syndrome,0.0,Kabuki syndrome,0.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+151,12,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+152,13,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+153,14,6,Williams syndrome,0.0,Kabuki syndrome,1.0,2.0,Kabuki,Kabuki,Correct,1,0,1,1,1,High_Acc
+154,15,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+155,16,6,22q11.2 deletion syndrome,2.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,1,0,1,1,0,High_Acc
+156,17,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,1.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+157,18,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+158,19,6,22q11.2 deletion syndrome,0.0,Kabuki syndrome,1.0,1.0,Kabuki,Kabuki,Correct,1,0,1,1,1,High_Acc
+159,20,6,Kabuki syndrome,2.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,0,High_Acc
+160,21,6,Kabuki syndrome,1.0,Kabuki syndrome,2.0,0.0,Kabuki,Kabuki,Correct,0,1,1,0,1,High_Acc
+161,22,6,22q11.2 deletion syndrome,0.0,Kabuki syndrome,0.0,1.0,Kabuki,Kabuki,Correct,1,0,1,1,0,High_Acc
+162,23,6,Noonan syndrome,0.0,Kabuki syndrome,2.0,2.0,Kabuki,Kabuki,Correct,1,0,1,1,2,High_Acc
+168,1,7,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+169,2,7,Williams syndrome,2.0,Williams syndrome,2.0,-2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+170,3,7,Williams syndrome,0.0,Williams syndrome,0.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+171,4,7,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+172,5,7,Williams syndrome,2.0,Williams syndrome,2.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+173,6,7,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+174,7,7,Williams syndrome,2.0,Williams syndrome,2.0,-1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+175,8,7,Kabuki syndrome,0.0,Williams syndrome,-1.0,0.0,Williams,Williams,Correct,1,0,1,1,-1,High_Acc
+176,9,7,Williams syndrome,1.0,Williams syndrome,2.0,1.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+177,10,7,Noonan syndrome,0.0,Williams syndrome,0.0,0.0,Williams,Williams,Correct,1,0,1,1,0,High_Acc
+178,11,7,Williams syndrome,0.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+179,12,7,Williams syndrome,1.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+180,13,7,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+181,14,7,Williams syndrome,1.0,Williams syndrome,1.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+182,15,7,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+183,16,7,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+184,17,7,Williams syndrome,1.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+185,18,7,Williams syndrome,0.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+186,19,7,Kabuki syndrome,0.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,1,0,1,1,1,High_Acc
+187,20,7,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+188,21,7,22q11.2 deletion syndrome,0.0,Williams syndrome,0.0,0.0,Williams,Williams,Correct,1,0,1,1,0,High_Acc
+189,22,7,Williams syndrome,0.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+190,23,7,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+196,1,8,Noonan syndrome,-1.0,Kabuki syndrome,2.0,2.0,22q,Kabuki,Incorrect,1,0,0,0,3,Low_Acc
+197,2,8,Noonan syndrome,1.0,Noonan syndrome,1.0,-1.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+198,3,8,Angelman syndrome,-2.0,Angelman syndrome,-1.0,-2.0,22q,Kabuki,Incorrect,-1,0,0,0,1,Low_Acc
+199,4,8,Noonan syndrome,2.0,Noonan syndrome,1.0,0.0,22q,Kabuki,Incorrect,-1,0,0,0,-1,Low_Acc
+200,5,8,Noonan syndrome,2.0,Noonan syndrome,2.0,-1.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+201,6,8,Noonan syndrome,2.0,Noonan syndrome,0.0,0.0,22q,Kabuki,Incorrect,-1,0,0,0,-2,Low_Acc
+202,7,8,22q11.2 deletion syndrome,0.0,Kabuki syndrome,1.0,2.0,22q,Kabuki,Incorrect,1,1,0,-1,1,Low_Acc
+203,8,8,Angelman syndrome,0.0,Kabuki syndrome,0.0,1.0,22q,Kabuki,Incorrect,1,0,0,0,0,Low_Acc
+204,9,8,Noonan syndrome,0.0,Kabuki syndrome,1.0,1.0,22q,Kabuki,Incorrect,1,0,0,0,1,Low_Acc
+205,10,8,Unaffected,0.0,Unaffected,0.0,0.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+206,11,8,22q11.2 deletion syndrome,0.0,Kabuki syndrome,0.0,0.0,22q,Kabuki,Incorrect,1,1,0,-1,0,Low_Acc
+207,12,8,22q11.2 deletion syndrome,1.0,Kabuki syndrome,1.0,1.0,22q,Kabuki,Incorrect,1,1,0,-1,0,Low_Acc
+208,13,8,22q11.2 deletion syndrome,0.0,Kabuki syndrome,0.0,0.0,22q,Kabuki,Incorrect,1,1,0,-1,0,Low_Acc
+209,14,8,Noonan syndrome,-1.0,Noonan syndrome,-1.0,-2.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+210,15,8,Williams syndrome,1.0,Kabuki syndrome,0.0,0.0,22q,Kabuki,Incorrect,1,0,0,0,-1,Low_Acc
+211,16,8,Noonan syndrome,1.0,Noonan syndrome,1.0,-1.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+212,17,8,Noonan syndrome,1.0,Kabuki syndrome,0.0,-1.0,22q,Kabuki,Incorrect,1,0,0,0,-1,Low_Acc
+213,18,8,Noonan syndrome,1.0,Kabuki syndrome,0.0,0.0,22q,Kabuki,Incorrect,1,0,0,0,-1,Low_Acc
+214,19,8,Noonan syndrome,1.0,Noonan syndrome,1.0,-1.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+215,20,8,Noonan syndrome,0.0,Noonan syndrome,0.0,0.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+216,21,8,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,1.0,-1.0,22q,Kabuki,Incorrect,-1,1,1,0,1,Low_Acc
+217,22,8,Noonan syndrome,0.0,Noonan syndrome,0.0,0.0,22q,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+218,23,8,Angelman syndrome,2.0,Kabuki syndrome,2.0,0.0,22q,Kabuki,Incorrect,1,0,0,0,0,Low_Acc
+224,1,9,Noonan syndrome,-1.0,22q11.2 deletion syndrome,2.0,2.0,Noonan,Williams,Incorrect,-1,1,0,-1,3,Low_Acc
+225,2,9,Kabuki syndrome,1.0,Kabuki syndrome,0.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,-1,Low_Acc
+226,3,9,Noonan syndrome,1.0,Noonan syndrome,-2.0,0.0,Noonan,Williams,Incorrect,-1,1,1,0,-3,Low_Acc
+227,4,9,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,0,Low_Acc
+228,5,9,Unaffected,1.0,22q11.2 deletion syndrome,1.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,0,Low_Acc
+229,6,9,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Noonan,Williams,Incorrect,0,0,0,0,0,Low_Acc
+230,7,9,Noonan syndrome,0.0,22q11.2 deletion syndrome,2.0,2.0,Noonan,Williams,Incorrect,-1,1,0,-1,2,Low_Acc
+231,8,9,Noonan syndrome,0.0,Noonan syndrome,0.0,-1.0,Noonan,Williams,Incorrect,-1,1,1,0,0,Low_Acc
+232,9,9,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,0,0,0,1,Low_Acc
+233,10,9,Williams syndrome,-2.0,22q11.2 deletion syndrome,0.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,2,Low_Acc
+234,11,9,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,0,Low_Acc
+235,12,9,Kabuki syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,0,0,0,1,Low_Acc
+236,13,9,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,0,0,0,1,Low_Acc
+237,14,9,Noonan syndrome,1.0,Noonan syndrome,0.0,-2.0,Noonan,Williams,Incorrect,-1,1,1,0,-1,Low_Acc
+238,15,9,Noonan syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,1,0,-1,1,Low_Acc
+239,16,9,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,0,0,0,0,Low_Acc
+240,17,9,Noonan syndrome,1.0,22q11.2 deletion syndrome,0.0,-1.0,Noonan,Williams,Incorrect,-1,1,0,-1,-1,Low_Acc
+241,18,9,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Noonan,Williams,Incorrect,-1,0,0,0,0,Low_Acc
+242,19,9,Angelman syndrome,1.0,Angelman syndrome,-1.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,-2,Low_Acc
+243,20,9,Noonan syndrome,2.0,Noonan syndrome,1.0,-1.0,Noonan,Williams,Incorrect,-1,1,1,0,-1,Low_Acc
+244,21,9,Noonan syndrome,0.0,Noonan syndrome,0.0,-1.0,Noonan,Williams,Incorrect,-1,1,1,0,0,Low_Acc
+245,22,9,Williams syndrome,0.0,22q11.2 deletion syndrome,-2.0,0.0,Noonan,Williams,Incorrect,-1,0,0,0,-2,Low_Acc
+246,23,9,Noonan syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,Noonan,Williams,Incorrect,-1,1,0,-1,0,Low_Acc
+252,1,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+253,2,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,-2.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+254,3,10,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,2.0,1.0,22q,22q,Correct,0,1,1,0,2,High_Acc
+257,6,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+258,7,10,Kabuki syndrome,0.0,Kabuki syndrome,0.0,0.0,22q,22q,Correct,-1,0,0,0,0,High_Acc
+259,8,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,-2.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+260,9,10,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,0,1,1,0,1,High_Acc
+261,10,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+262,11,10,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+263,12,10,Angelman syndrome,1.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,1,0,1,1,1,High_Acc
+264,13,10,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+265,14,10,22q11.2 deletion syndrome,-1.0,22q11.2 deletion syndrome,0.0,2.0,22q,22q,Correct,0,1,1,0,1,High_Acc
+266,15,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+267,16,10,Angelman syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,1,0,1,1,0,High_Acc
+268,17,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,1.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+269,18,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+270,19,10,Angelman syndrome,1.0,Angelman syndrome,-1.0,-1.0,22q,22q,Correct,-1,0,0,0,-2,High_Acc
+271,20,10,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,22q,22q,Correct,0,1,1,0,0,High_Acc
+272,21,10,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,2.0,1.0,22q,22q,Correct,0,1,1,0,1,High_Acc
+273,22,10,Kabuki syndrome,0.0,Kabuki syndrome,0.0,0.0,22q,22q,Correct,-1,0,0,0,0,High_Acc
+274,23,10,Williams syndrome,2.0,22q11.2 deletion syndrome,0.0,0.0,22q,22q,Correct,1,0,1,1,-2,High_Acc
+280,1,11,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+281,2,11,Williams syndrome,2.0,Williams syndrome,2.0,-2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+282,3,11,Williams syndrome,1.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+285,6,11,Noonan syndrome,2.0,Williams syndrome,1.0,1.0,Williams,Williams,Correct,1,0,1,1,-1,High_Acc
+286,7,11,Williams syndrome,2.0,Williams syndrome,0.0,0.0,Williams,Williams,Correct,0,1,1,0,-2,High_Acc
+287,8,11,Williams syndrome,2.0,Williams syndrome,2.0,-2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+288,9,11,Williams syndrome,2.0,Williams syndrome,2.0,-2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+289,10,11,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+290,11,11,Williams syndrome,0.0,Williams syndrome,0.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+291,12,11,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+292,13,11,Noonan syndrome,1.0,Williams syndrome,1.0,2.0,Williams,Williams,Correct,1,0,1,1,0,High_Acc
+293,14,11,Williams syndrome,2.0,Williams syndrome,2.0,-1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+294,15,11,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+295,16,11,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+296,17,11,Williams syndrome,2.0,Williams syndrome,2.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+297,18,11,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+298,19,11,Williams syndrome,2.0,Williams syndrome,2.0,1.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+299,20,11,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+300,21,11,Williams syndrome,1.0,Williams syndrome,2.0,1.0,Williams,Williams,Correct,0,1,1,0,1,High_Acc
+301,22,11,22q11.2 deletion syndrome,-2.0,Williams syndrome,0.0,0.0,Williams,Williams,Correct,1,0,1,1,2,High_Acc
+302,23,11,Williams syndrome,2.0,Williams syndrome,2.0,0.0,Williams,Williams,Correct,0,1,1,0,0,High_Acc
+308,1,12,Angelman syndrome,0.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,1,0,1,1,2,High_Acc
+309,2,12,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+310,3,12,Unaffected,0.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,2,High_Acc
+313,6,12,Unaffected,2.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,0,High_Acc
+314,7,12,Unaffected,0.0,Unaffected,1.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+315,8,12,Angelman syndrome,-1.0,Unaffected,0.0,1.0,Unaffected,Unaffected,Correct,1,0,1,1,1,High_Acc
+316,9,12,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+317,10,12,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+318,11,12,Unaffected,0.0,Unaffected,0.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,0,High_Acc
+319,12,12,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,0.0,1.0,Unaffected,Unaffected,Correct,-1,0,0,0,-1,High_Acc
+320,13,12,Unaffected,1.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+321,14,12,Unaffected,1.0,Unaffected,2.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+322,15,12,Unaffected,1.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+323,16,12,Unaffected,1.0,Unaffected,2.0,2.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+324,17,12,Unaffected,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,0,High_Acc
+325,18,12,Unaffected,0.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+326,19,12,Unaffected,1.0,Unaffected,1.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,0,High_Acc
+327,20,12,Unaffected,0.0,Unaffected,1.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,1,High_Acc
+328,21,12,Unaffected,0.0,Unaffected,2.0,1.0,Unaffected,Unaffected,Correct,0,1,1,0,2,High_Acc
+329,22,12,22q11.2 deletion syndrome,0.0,Unaffected,0.0,0.0,Unaffected,Unaffected,Correct,1,0,1,1,0,High_Acc
+330,23,12,Unaffected,2.0,Unaffected,2.0,0.0,Unaffected,Unaffected,Correct,0,1,1,0,0,High_Acc
+336,1,13,Unaffected,0.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,1,0,1,1,2,Low_Acc
+337,2,13,Unaffected,1.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+338,3,13,Unaffected,1.0,Unaffected,1.0,-1.0,22q,22q,Correct,-1,0,0,0,0,Low_Acc
+341,6,13,Unaffected,2.0,Unaffected,2.0,2.0,22q,22q,Correct,-1,0,0,0,0,Low_Acc
+342,7,13,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,0,1,1,0,2,Low_Acc
+343,8,13,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,0,1,1,0,0,Low_Acc
+344,9,13,Unaffected,1.0,Unaffected,0.0,0.0,22q,22q,Correct,-1,0,0,0,-1,Low_Acc
+345,10,13,Unaffected,0.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+346,11,13,Unaffected,0.0,22q11.2 deletion syndrome,0.0,0.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+347,12,13,Unaffected,0.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,1,0,1,1,1,Low_Acc
+348,13,13,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,0,1,1,0,0,Low_Acc
+349,14,13,Unaffected,-1.0,Unaffected,-1.0,-2.0,22q,22q,Correct,-1,0,0,0,0,Low_Acc
+350,15,13,Unaffected,0.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,1,0,1,1,1,Low_Acc
+351,16,13,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,0,1,1,0,1,Low_Acc
+352,17,13,Unaffected,0.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+353,18,13,Kabuki syndrome,0.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+354,19,13,22q11.2 deletion syndrome,-1.0,22q11.2 deletion syndrome,0.0,1.0,22q,22q,Correct,0,1,1,0,1,Low_Acc
+355,20,13,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,22q,22q,Correct,0,1,1,0,0,Low_Acc
+356,21,13,Unaffected,0.0,Unaffected,0.0,0.0,22q,22q,Correct,-1,0,0,0,0,Low_Acc
+357,22,13,Unaffected,0.0,Unaffected,0.0,0.0,22q,22q,Correct,-1,0,0,0,0,Low_Acc
+358,23,13,Williams syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,22q,22q,Correct,1,0,1,1,0,Low_Acc
+364,1,14,Kabuki syndrome,1.0,22q11.2 deletion syndrome,2.0,2.0,Kabuki,22q,Incorrect,1,1,0,-1,1,Low_Acc
+365,2,14,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,2.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,1,Low_Acc
+366,3,14,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,0,Low_Acc
+369,6,14,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,Kabuki,22q,Incorrect,0,0,0,0,0,Low_Acc
+370,7,14,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,2.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,2,Low_Acc
+371,8,14,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,2.0,0.0,Kabuki,22q,Incorrect,0,0,0,0,1,Low_Acc
+372,9,14,Noonan syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,1,0,0,0,0,Low_Acc
+373,10,14,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,Kabuki,22q,Incorrect,0,0,0,0,0,Low_Acc
+374,11,14,Kabuki syndrome,0.0,Kabuki syndrome,1.0,1.0,Kabuki,22q,Incorrect,-1,1,1,0,1,Low_Acc
+375,12,14,Kabuki syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,1,1,0,-1,0,Low_Acc
+376,13,14,Kabuki syndrome,1.0,Kabuki syndrome,1.0,0.0,Kabuki,22q,Incorrect,-1,1,1,0,0,Low_Acc
+377,14,14,Kabuki syndrome,-2.0,22q11.2 deletion syndrome,-1.0,1.0,Kabuki,22q,Incorrect,1,1,0,-1,1,Low_Acc
+378,15,14,Williams syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,1,0,0,0,0,Low_Acc
+379,16,14,Kabuki syndrome,1.0,Kabuki syndrome,1.0,-1.0,Kabuki,22q,Incorrect,-1,1,1,0,0,Low_Acc
+380,17,14,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,1,Low_Acc
+381,18,14,Kabuki syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,1,1,0,-1,0,Low_Acc
+382,19,14,Kabuki syndrome,1.0,Kabuki syndrome,-1.0,-1.0,Kabuki,22q,Incorrect,-1,1,1,0,-2,Low_Acc
+383,20,14,22q11.2 deletion syndrome,-1.0,22q11.2 deletion syndrome,0.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,1,Low_Acc
+384,21,14,22q11.2 deletion syndrome,1.0,22q11.2 deletion syndrome,1.0,1.0,Kabuki,22q,Incorrect,0,0,0,0,0,Low_Acc
+385,22,14,Kabuki syndrome,0.0,22q11.2 deletion syndrome,0.0,0.0,Kabuki,22q,Incorrect,1,1,0,-1,0,Low_Acc
+386,23,14,22q11.2 deletion syndrome,2.0,22q11.2 deletion syndrome,2.0,0.0,Kabuki,22q,Incorrect,0,0,0,0,0,Low_Acc
+392,1,15,Angelman syndrome,1.0,Angelman syndrome,2.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+393,2,15,Angelman syndrome,1.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+394,3,15,Angelman syndrome,-1.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+397,6,15,Unaffected,2.0,Unaffected,2.0,2.0,Angelman,Angelman,Correct,-1,0,0,0,0,Low_Acc
+398,7,15,Angelman syndrome,0.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,2,Low_Acc
+399,8,15,Kabuki syndrome,-1.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,1,0,1,1,1,Low_Acc
+400,9,15,Angelman syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+401,10,15,Angelman syndrome,2.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+402,11,15,22q11.2 deletion syndrome,0.0,Angelman syndrome,0.0,0.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+403,12,15,Angelman syndrome,2.0,22q11.2 deletion syndrome,2.0,2.0,Angelman,Angelman,Correct,-1,1,0,-1,0,Low_Acc
+404,13,15,Angelman syndrome,0.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+405,14,15,Angelman syndrome,-1.0,Angelman syndrome,0.0,-1.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+406,15,15,Angelman syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+407,16,15,Angelman syndrome,1.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,0,1,1,0,1,Low_Acc
+408,17,15,Angelman syndrome,0.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+409,18,15,Williams syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+410,19,15,Williams syndrome,1.0,Williams syndrome,-1.0,-1.0,Angelman,Angelman,Correct,-1,0,0,0,-2,Low_Acc
+411,20,15,Angelman syndrome,1.0,Angelman syndrome,1.0,1.0,Angelman,Angelman,Correct,0,1,1,0,0,Low_Acc
+412,21,15,Williams syndrome,-1.0,Angelman syndrome,0.0,1.0,Angelman,Angelman,Correct,1,0,1,1,1,Low_Acc
+413,22,15,Williams syndrome,0.0,Angelman syndrome,0.0,0.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+414,23,15,Noonan syndrome,2.0,Angelman syndrome,2.0,2.0,Angelman,Angelman,Correct,1,0,1,1,0,Low_Acc
+420,1,16,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+421,2,16,Noonan syndrome,2.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+422,3,16,Williams syndrome,0.0,Williams syndrome,-1.0,1.0,Noonan,Noonan,Correct,-1,0,0,0,-1,High_Acc
+425,6,16,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+426,7,16,Noonan syndrome,1.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+427,8,16,Noonan syndrome,1.0,Noonan syndrome,1.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+428,9,16,Noonan syndrome,0.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+429,10,16,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+430,11,16,Noonan syndrome,0.0,Noonan syndrome,0.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+431,12,16,Kabuki syndrome,1.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,1,0,1,1,0,High_Acc
+432,13,16,Noonan syndrome,2.0,Noonan syndrome,2.0,-1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+433,14,16,Noonan syndrome,1.0,Noonan syndrome,1.0,-1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+434,15,16,Noonan syndrome,1.0,Noonan syndrome,1.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+435,16,16,Noonan syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+436,17,16,Noonan syndrome,2.0,Noonan syndrome,2.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+437,18,16,Noonan syndrome,1.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+438,19,16,Noonan syndrome,-1.0,Noonan syndrome,0.0,1.0,Noonan,Noonan,Correct,0,1,1,0,1,High_Acc
+439,20,16,Noonan syndrome,2.0,Noonan syndrome,2.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+440,21,16,Noonan syndrome,1.0,Noonan syndrome,1.0,1.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+441,22,16,Noonan syndrome,0.0,Noonan syndrome,0.0,0.0,Noonan,Noonan,Correct,0,1,1,0,0,High_Acc
+442,23,16,Kabuki syndrome,2.0,Noonan syndrome,2.0,2.0,Noonan,Noonan,Correct,1,0,1,1,0,High_Acc
+448,1,17,Williams syndrome,2.0,Angelman syndrome,2.0,2.0,Williams,Angelman,Incorrect,1,1,0,-1,0,High_Acc
+449,2,17,Williams syndrome,2.0,Williams syndrome,1.0,1.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+450,3,17,Williams syndrome,1.0,Williams syndrome,-1.0,0.0,Williams,Angelman,Incorrect,-1,1,1,0,-2,High_Acc
+453,6,17,Williams syndrome,2.0,Williams syndrome,2.0,2.0,Williams,Angelman,Incorrect,-1,1,1,0,0,High_Acc
+454,7,17,Williams syndrome,1.0,Angelman syndrome,1.0,2.0,Williams,Angelman,Incorrect,1,1,0,-1,0,High_Acc
+455,8,17,Williams syndrome,1.0,Williams syndrome,0.0,-1.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+456,9,17,Williams syndrome,2.0,Williams syndrome,1.0,0.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+457,10,17,Williams syndrome,1.0,Angelman syndrome,0.0,1.0,Williams,Angelman,Incorrect,1,1,0,-1,-1,High_Acc
+458,11,17,Williams syndrome,0.0,Williams syndrome,0.0,0.0,Williams,Angelman,Incorrect,-1,1,1,0,0,High_Acc
+459,12,17,Williams syndrome,2.0,Angelman syndrome,1.0,1.0,Williams,Angelman,Incorrect,1,1,0,-1,-1,High_Acc
+460,13,17,Williams syndrome,2.0,Williams syndrome,2.0,-2.0,Williams,Angelman,Incorrect,-1,1,1,0,0,High_Acc
+461,14,17,Williams syndrome,1.0,Williams syndrome,0.0,-2.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+462,15,17,Williams syndrome,2.0,Angelman syndrome,1.0,1.0,Williams,Angelman,Incorrect,1,1,0,-1,-1,High_Acc
+463,16,17,Williams syndrome,2.0,Williams syndrome,1.0,-1.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+464,17,17,Williams syndrome,2.0,Angelman syndrome,-1.0,-1.0,Williams,Angelman,Incorrect,1,1,0,-1,-3,High_Acc
+465,18,17,Angelman syndrome,1.0,Angelman syndrome,1.0,1.0,Williams,Angelman,Incorrect,0,0,0,0,0,High_Acc
+466,19,17,Williams syndrome,1.0,Angelman syndrome,-1.0,1.0,Williams,Angelman,Incorrect,1,1,0,-1,-2,High_Acc
+467,20,17,Williams syndrome,2.0,Williams syndrome,1.0,-1.0,Williams,Angelman,Incorrect,-1,1,1,0,-1,High_Acc
+468,21,17,Williams syndrome,0.0,Williams syndrome,0.0,-1.0,Williams,Angelman,Incorrect,-1,1,1,0,0,High_Acc
+469,22,17,Williams syndrome,0.0,Angelman syndrome,0.0,0.0,Williams,Angelman,Incorrect,1,1,0,-1,0,High_Acc
+470,23,17,Williams syndrome,2.0,Angelman syndrome,2.0,2.0,Williams,Angelman,Incorrect,1,1,0,-1,0,High_Acc
+476,1,18,Kabuki syndrome,-1.0,Kabuki syndrome,2.0,2.0,Angelman,Kabuki,Incorrect,0,0,0,0,3,Low_Acc
+477,2,18,Unaffected,1.0,Unaffected,1.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+478,3,18,Kabuki syndrome,0.0,Kabuki syndrome,1.0,1.0,Angelman,Kabuki,Incorrect,0,0,0,0,1,Low_Acc
+481,6,18,Unaffected,2.0,Unaffected,2.0,2.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+482,7,18,Kabuki syndrome,1.0,Kabuki syndrome,1.0,1.0,Angelman,Kabuki,Incorrect,0,0,0,0,0,Low_Acc
+483,8,18,Unaffected,0.0,Unaffected,0.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+484,9,18,Unaffected,0.0,Unaffected,0.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+485,10,18,Unaffected,1.0,Unaffected,0.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,-1,Low_Acc
+486,11,18,Kabuki syndrome,0.0,Kabuki syndrome,0.0,0.0,Angelman,Kabuki,Incorrect,0,0,0,0,0,Low_Acc
+487,12,18,22q11.2 deletion syndrome,1.0,Kabuki syndrome,0.0,1.0,Angelman,Kabuki,Incorrect,1,0,0,0,-1,Low_Acc
+488,13,18,Kabuki syndrome,1.0,Kabuki syndrome,1.0,0.0,Angelman,Kabuki,Incorrect,0,0,0,0,0,Low_Acc
+489,14,18,Unaffected,-2.0,Unaffected,-1.0,-2.0,Angelman,Kabuki,Incorrect,-1,0,0,0,1,Low_Acc
+490,15,18,Unaffected,0.0,Kabuki syndrome,0.0,0.0,Angelman,Kabuki,Incorrect,1,0,0,0,0,Low_Acc
+491,16,18,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Angelman,Kabuki,Incorrect,0,0,0,0,0,Low_Acc
+492,17,18,Unaffected,1.0,Kabuki syndrome,-1.0,-1.0,Angelman,Kabuki,Incorrect,1,0,0,0,-2,Low_Acc
+493,18,18,22q11.2 deletion syndrome,0.0,Kabuki syndrome,1.0,1.0,Angelman,Kabuki,Incorrect,1,0,0,0,1,Low_Acc
+494,19,18,Unaffected,-1.0,Unaffected,-1.0,-1.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+495,20,18,Unaffected,-2.0,Unaffected,-2.0,-2.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+496,21,18,Unaffected,-1.0,Unaffected,0.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,1,Low_Acc
+497,22,18,22q11.2 deletion syndrome,0.0,22q11.2 deletion syndrome,0.0,0.0,Angelman,Kabuki,Incorrect,-1,0,0,0,0,Low_Acc
+498,23,18,Kabuki syndrome,2.0,Kabuki syndrome,2.0,2.0,Angelman,Kabuki,Incorrect,0,0,0,0,0,Low_Acc
