@@ -5,17 +5,12 @@ This repository contains the code and data for the supplementary section of the 
 The code was tested with Python 3.12 and R 4.5.0
 
 ```
-├── code  
-│   ├── data/
-│   │   ├── *.csv: raw Qualtrics output
-│   │   ├── raw_*.csv: edited Qualtrics output
-│   ├── output/*
-│   ├── reformat_data_ai_only.py
-│   ├── reformat_data_xai.py
-│   ├── reformat_data_xai_presence.py
-│   ├── ai_cohort_bootstrapping.r
-│   ├── xai_cohort_bootstrapping.r
-│   ├── xai_presence_bootstrapping.r
+├── input_data/
+│   ├── raw_*.csv: edited Qualtrics output
+├── output/*
+├── ai_cohort_bootstrapping.r
+├── xai_cohort_bootstrapping.r
+├── xai_presence_bootstrapping.r
 ```
 
 Raw Qualtric outputs are difficult to read, thus the data is extracted and saved in a more readable format
