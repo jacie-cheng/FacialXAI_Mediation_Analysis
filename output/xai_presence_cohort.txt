@@ -1,3 +1,103 @@
+lavaan 0.6-19 ended normally after 1 iteration
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                         3
+
+  Number of observations                           144
+
+Model Test User Model:
+                                                      
+  Test statistic                                 0.000
+  Degrees of freedom                                 0
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  Q4 ~                                                
+    Q2                0.247    0.077    3.200    0.001
+    XAI_Presence     -0.012    0.147   -0.085    0.933
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Q4                0.775    0.091    8.485    0.000
+
+
+Call:
+glm(formula = mod2, family = "binomial", data = correct_data)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)    1.0122     0.3053   3.316 0.000914 ***
+Q2            -0.5259     0.2446  -2.150 0.031551 *  
+XAI_Presence  -0.1186     0.3937  -0.301 0.763176    
+Q4             0.7150     0.2364   3.025 0.002489 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 168.22  on 143  degrees of freedom
+Residual deviance: 155.97  on 140  degrees of freedom
+AIC: 163.97
+
+Number of Fisher Scoring iterations: 4
+
+lavaan 0.6-19 ended normally after 1 iteration
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                         3
+
+  Number of observations                           171
+
+Model Test User Model:
+                                                      
+  Test statistic                                 0.000
+  Degrees of freedom                                 0
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  Q4 ~                                                
+    Q2                0.466    0.062    7.542    0.000
+    XAI_Presence      0.098    0.128    0.771    0.441
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Q4                0.689    0.075    9.247    0.000
+
+
+Call:
+glm(formula = mod2, family = "binomial", data = incorrect_data)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)  
+(Intercept)   -0.2206     0.2445  -0.902   0.3671  
+Q2            -0.3650     0.1810  -2.016   0.0438 *
+XAI_Presence   0.3604     0.3149   1.145   0.2524  
+Q4             0.3141     0.1931   1.627   0.1037  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 235.74  on 170  degrees of freedom
+Residual deviance: 229.78  on 167  degrees of freedom
+AIC: 237.78
+
+Number of Fisher Scoring iterations: 4
+
 Original matrix size: 1000 4Original matrix size: 1000 4[1] "DIRECT AND INDIRECT EFFECTS"
 [1] "Follows_AI~Q2.g1"
 -0.525924 sd: 0.2785181 [ -1.071819 ,  0.0199715 ] 

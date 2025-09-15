@@ -1,0 +1,74 @@
+Original matrix size: 1000 4Original matrix size: 1000 4[1] "DIRECT AND INDIRECT EFFECTS"
+[1] "Follows_AI~Q2.g1"
+-0.525924 sd: 0.2785181 [ -1.071819 ,  0.0199715 ] 
+original regression coef -0.525924 
+bootstrap sd 0.2785181 
+bootstrap upper ci 0.0199715 
+bootstrap lower ci -1.071819 
+[1] "Q4~Q2.g1, Follows_AI~Q4.g1"
+0.176685 sd: 0.07695706 [ 0.02584921 ,  0.3275209 ] 
+original regression coef 0.176685 
+bootstrap sd 0.07695706 
+bootstrap upper ci 0.3275209 
+bootstrap lower ci 0.02584921 
+[1] "Follows_AI~XAI_Presence.g1"
+-0.118638 sd: 0.3981698 [ -0.8990509 ,  0.6617748 ] 
+original regression coef -0.118638 
+bootstrap sd 0.3981698 
+bootstrap upper ci 0.6617748 
+bootstrap lower ci -0.8990509 
+[1] "Q4~XAI_Presence.g1, Follows_AI~Q4.g1"
+-0.008885441 sd: 0.1002083 [ -0.2052937 ,  0.1875228 ] 
+original regression coef -0.008885441 
+bootstrap sd 0.1002083 
+bootstrap upper ci 0.1875228 
+bootstrap lower ci -0.2052937 
+[1] "Follows_AI~Q2.g2"
+-0.3650425 sd: 0.1810906 [ -0.7199801 ,  -0.01010484 ] 
+original regression coef -0.3650425 
+bootstrap sd 0.1810906 
+bootstrap upper ci -0.01010484 
+bootstrap lower ci -0.7199801 
+[1] "Q4~Q2.g2, Follows_AI~Q4.g2"
+0.1463378 sd: 0.0953938 [ -0.04063401 ,  0.3333097 ] 
+original regression coef 0.1463378 
+bootstrap sd 0.0953938 
+bootstrap upper ci 0.3333097 
+bootstrap lower ci -0.04063401 
+[1] "Follows_AI~XAI_Presence.g2"
+0.3604178 sd: 0.3052548 [ -0.2378815 ,  0.9587172 ] 
+original regression coef 0.3604178 
+bootstrap sd 0.3052548 
+bootstrap upper ci 0.9587172 
+bootstrap lower ci -0.2378815 
+[1] "Q4~XAI_Presence.g2, Follows_AI~Q4.g2"
+0.03091152 sd: 0.04113808 [ -0.04971912 ,  0.1115422 ] 
+original regression coef 0.03091152 
+bootstrap sd 0.04113808 
+bootstrap upper ci 0.1115422 
+bootstrap lower ci -0.04971912 
+[1] "TOTAL EFFECTS"
+[1] "Correct.Follows_AI~Q2"
+original regression coef -0.3492389 
+bootstrap sd 0.2891709 
+bootstrap upper ci 0.2175361 
+bootstrap lower ci -0.9160139 
+-0.3492389 sd: 0.2891709 [ -0.9160139 ,  0.2175361 ] 
+[1] "Correct.Follows_AI~XAI_Presence"
+original regression coef -0.1275235 
+bootstrap sd 0.4281658 
+bootstrap upper ci 0.7116814 
+bootstrap lower ci -0.9667284 
+-0.1275235 sd: 0.4281658 [ -0.9667284 ,  0.7116814 ] 
+[1] "Incorrect.Follows_AI~Q2"
+original regression coef -0.2187046 
+bootstrap sd 0.1630582 
+bootstrap upper ci 0.1008894 
+bootstrap lower ci -0.5382987 
+-0.2187046 sd: 0.1630582 [ -0.5382987 ,  0.1008894 ] 
+[1] "Incorrect.Follows_AI~XAI_Presence"
+original regression coef 0.3913294 
+bootstrap sd 0.3194125 
+bootstrap upper ci 1.017378 
+bootstrap lower ci -0.2347191 
+0.3913294 sd: 0.3194125 [ -0.2347191 ,  1.017378 ] 

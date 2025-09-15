@@ -1,4 +1,110 @@
-Original matrix size: 948 4Original matrix size: 948 4[1] "DIRECT AND INDIRECT EFFECTS"
+lavaan 0.6-19 ended normally after 1 iteration
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                         5
+
+  Number of observations                            75
+
+Model Test User Model:
+                                                      
+  Test statistic                                 0.000
+  Degrees of freedom                                 0
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  Q5 ~                                                
+    Q2                0.383    0.100    3.823    0.000
+  Q4 ~                                                
+    Q2                0.178    0.076    2.345    0.019
+    Q5                0.660    0.080    8.244    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Q5                0.648    0.106    6.124    0.000
+   .Q4                0.311    0.051    6.124    0.000
+
+
+Call:
+glm(formula = mod2, family = "binomial", data = correct_data)
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)   
+(Intercept)   0.5924     0.4076   1.453   0.1462   
+Q2           -1.2423     0.5082  -2.445   0.0145 * 
+Q4            0.2812     0.6168   0.456   0.6485   
+Q5            1.5234     0.5806   2.624   0.0087 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 84.895  on 74  degrees of freedom
+Residual deviance: 65.219  on 71  degrees of freedom
+AIC: 73.219
+
+Number of Fisher Scoring iterations: 5
+
+lavaan 0.6-19 ended normally after 1 iteration
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                         5
+
+  Number of observations                            89
+
+Model Test User Model:
+                                                      
+  Test statistic                                 0.000
+  Degrees of freedom                                 0
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  Q5 ~                                                
+    Q2                0.187    0.115    1.626    0.104
+  Q4 ~                                                
+    Q2                0.397    0.079    4.998    0.000
+    Q5                0.248    0.072    3.431    0.001
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Q5                1.200    0.180    6.671    0.000
+   .Q4                0.557    0.084    6.671    0.000
+
+
+Call:
+glm(formula = mod2, family = "binomial", data = incorrect_data)
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -0.28140    0.33755  -0.834   0.4045    
+Q2           0.03158    0.30306   0.104   0.9170    
+Q4          -0.91432    0.47728  -1.916   0.0554 .  
+Q5           1.78573    0.43883   4.069 4.71e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 120.840  on 88  degrees of freedom
+Residual deviance:  86.749  on 85  degrees of freedom
+AIC: 94.749
+
+Number of Fisher Scoring iterations: 5
+
+Original matrix size: 948 4Original matrix size: 985 4[1] "DIRECT AND INDIRECT EFFECTS"
 [1] "Follows_AI~Q2.g1"
 -1.242341 sd: 0.5130457 [ -2.247911 ,  -0.2367713 ] 
 original regression coef -1.242341 
@@ -24,29 +130,29 @@ bootstrap sd 0.1555892
 bootstrap upper ci 0.3759201 
 bootstrap lower ci -0.2339896 
 [1] "Follows_AI~Q2.g2"
-0.03158236 sd: 0.3278184 [ -0.6109417 ,  0.6741064 ] 
+0.03158236 sd: 0.3275598 [ -0.6104348 ,  0.6735995 ] 
 original regression coef 0.03158236 
-bootstrap sd 0.3278184 
-bootstrap upper ci 0.6741064 
-bootstrap lower ci -0.6109417 
+bootstrap sd 0.3275598 
+bootstrap upper ci 0.6735995 
+bootstrap lower ci -0.6104348 
 [1] "Q4~Q2.g2, Follows_AI~Q4.g2"
--0.3627402 sd: 0.2287761 [ -0.8111413 ,  0.08566098 ] 
+-0.3627402 sd: 0.2235111 [ -0.8008219 ,  0.07534159 ] 
 original regression coef -0.3627402 
-bootstrap sd 0.2287761 
-bootstrap upper ci 0.08566098 
-bootstrap lower ci -0.8111413 
+bootstrap sd 0.2235111 
+bootstrap upper ci 0.07534159 
+bootstrap lower ci -0.8008219 
 [1] "Q5~Q2.g2, Follows_AI~Q5.g2"
-0.3333923 sd: 0.2585437 [ -0.1733534 ,  0.840138 ] 
+0.3333923 sd: 0.2550631 [ -0.1665315 ,  0.833316 ] 
 original regression coef 0.3333923 
-bootstrap sd 0.2585437 
-bootstrap upper ci 0.840138 
-bootstrap lower ci -0.1733534 
+bootstrap sd 0.2550631 
+bootstrap upper ci 0.833316 
+bootstrap lower ci -0.1665315 
 [1] "Q5~Q2.g2, Q4~Q5.g2, Follows_AI~Q4.g2"
--0.04229616 sd: 0.04256835 [ -0.1257301 ,  0.0411378 ] 
+-0.04229616 sd: 0.04086265 [ -0.122387 ,  0.03779464 ] 
 original regression coef -0.04229616 
-bootstrap sd 0.04256835 
-bootstrap upper ci 0.0411378 
-bootstrap lower ci -0.1257301 
+bootstrap sd 0.04086265 
+bootstrap upper ci 0.03779464 
+bootstrap lower ci -0.122387 
 [1] "TOTAL EFFECTS"
 [1] "Correct.Follows_AI~Q2"
 original regression coef -0.5386085 
@@ -56,7 +162,7 @@ bootstrap lower ci -1.476985
 -0.5386085 sd: 0.4787637 [ -1.476985 ,  0.3997683 ] 
 [1] "Incorrect.Follows_AI~Q2"
 original regression coef -0.04006168 
-bootstrap sd 0.6843403 
-bootstrap upper ci 1.301245 
-bootstrap lower ci -1.381369 
--0.04006168 sd: 0.6843403 [ -1.381369 ,  1.301245 ] 
+bootstrap sd 0.3876137 
+bootstrap upper ci 0.7196611 
+bootstrap lower ci -0.7997845 
+-0.04006168 sd: 0.3876137 [ -0.7997845 ,  0.7196611 ] 
