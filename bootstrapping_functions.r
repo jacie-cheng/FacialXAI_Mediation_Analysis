@@ -95,7 +95,7 @@ print_direct_and_indirect_effects <- function(subpaths_list, my_original_output,
         upper_ci <- my_original_output[[i]] + 1.96*sd_list[[i]]
         lower_ci <- my_original_output[[i]] - 1.96*sd_list[[i]]
         print(subpaths_list[[i]])
-        cat(my_original_output[[i]], "sd:", sd_list[[i]], "[", lower_ci, ", ", upper_ci, "]", "\n")
+        cat(round(my_original_output[[i]],3), "sd:", round(sd_list[[i]],3), "[", round(lower_ci,3), ", ", round(upper_ci,3), "]", "\n")
         cat("original regression coef", my_original_output[[i]], "\n")
         cat("bootstrap sd", sd_list[[i]], "\n")
         cat("bootstrap upper ci", upper_ci, "\n")
@@ -132,6 +132,6 @@ print_total_effects <- function(path_names, original_output_list, output_of_rand
         cat("bootstrap upper ci", upper_ci, "\n")
         lower_ci <- bootstapped_total_effects[[i]] - 1.96*total_sd
         cat("bootstrap lower ci", lower_ci, "\n")
-        cat(bootstapped_total_effects[[i]], "sd:", total_sd, "[", lower_ci, ", ", upper_ci, "]", "\n")
+        cat(round(bootstapped_total_effects[[i]],3), "sd:", round(total_sd,3), "[",round(lower_ci,3),", ",round(upper_ci,3),"]", "\n")
     }
 }

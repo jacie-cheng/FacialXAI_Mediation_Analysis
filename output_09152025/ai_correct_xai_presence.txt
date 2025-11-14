@@ -50,39 +50,39 @@ Number of Fisher Scoring iterations: 4
 
 Original matrix size: 200 4[1] "DIRECT AND INDIRECT EFFECTS"
 [1] "Follows_AI~Q2.g2"
--0.593 sd: 0.328 [ -1.237 ,  0.051 ] 
+-0.5930248 sd: 0.3283437 [ -1.236579 ,  0.05052893 ] 
 original regression coef -0.5930248 
 bootstrap sd 0.3283437 
 bootstrap upper ci 0.05052893 
 bootstrap lower ci -1.236579 
 [1] "Q4~Q2.g2, Follows_AI~Q4.g2"
-0.189 sd: 0.096 [ 0 ,  0.378 ] 
+0.1891722 sd: 0.09643031 [ 0.000168743 ,  0.3781756 ] 
 original regression coef 0.1891722 
 bootstrap sd 0.09643031 
 bootstrap upper ci 0.3781756 
 bootstrap lower ci 0.000168743 
 [1] "Follows_AI~XAI_Presence.g2"
--0.145 sd: 0.503 [ -1.131 ,  0.84 ] 
+-0.1452543 sd: 0.5028178 [ -1.130777 ,  0.8402686 ] 
 original regression coef -0.1452543 
 bootstrap sd 0.5028178 
 bootstrap upper ci 0.8402686 
 bootstrap lower ci -1.130777 
 [1] "Q4~XAI_Presence.g2, Follows_AI~Q4.g2"
--0.02 sd: 0.119 [ -0.253 ,  0.213 ] 
+-0.02030098 sd: 0.1189682 [ -0.2534787 ,  0.2128767 ] 
 original regression coef -0.02030098 
 bootstrap sd 0.1189682 
 bootstrap upper ci 0.2128767 
 bootstrap lower ci -0.2534787 
 [1] "TOTAL EFFECTS"
-[1] "Hard.Follows_AI~Q2"
+[1] "Incorrect.Follows_AI~Q2"
 original regression coef -0.4038527 
 bootstrap sd 0.3447076 
 bootstrap upper ci 0.2717742 
 bootstrap lower ci -1.07948 
--0.404 sd: 0.345 [ -1.079 ,  0.272 ] 
-[1] "Hard.Follows_AI~XAI_Presence"
+-0.4038527 sd: 0.3447076 [ -1.07948 ,  0.2717742 ] 
+[1] "Incorrect.Follows_AI~XAI_Presence"
 original regression coef -0.1655553 
 bootstrap sd 0.5299237 
 bootstrap upper ci 0.8730952 
 bootstrap lower ci -1.204206 
--0.166 sd: 0.53 [ -1.204 ,  0.873 ] 
+-0.1655553 sd: 0.5299237 [ -1.204206 ,  0.8730952 ] 

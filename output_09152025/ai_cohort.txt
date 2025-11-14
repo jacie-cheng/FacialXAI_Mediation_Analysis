@@ -106,49 +106,49 @@ Number of Fisher Scoring iterations: 5
 
 Original matrix size: 948 4Original matrix size: 985 4[1] "DIRECT AND INDIRECT EFFECTS"
 [1] "Follows_AI~Q2.g1"
--1.242 sd: 0.513 [ -2.248 ,  -0.237 ] 
+-1.242341 sd: 0.5130457 [ -2.247911 ,  -0.2367713 ] 
 original regression coef -1.242341 
 bootstrap sd 0.5130457 
 bootstrap upper ci -0.2367713 
 bootstrap lower ci -2.247911 
 [1] "Q4~Q2.g1, Follows_AI~Q4.g1"
-0.05 sd: 0.104 [ -0.155 ,  0.255 ] 
+0.04997743 sd: 0.1044901 [ -0.1548232 ,  0.2547781 ] 
 original regression coef 0.04997743 
 bootstrap sd 0.1044901 
 bootstrap upper ci 0.2547781 
 bootstrap lower ci -0.1548232 
 [1] "Q5~Q2.g1, Follows_AI~Q5.g1"
-0.583 sd: 0.292 [ 0.01 ,  1.155 ] 
+0.5827898 sd: 0.2921465 [ 0.01018276 ,  1.155397 ] 
 original regression coef 0.5827898 
 bootstrap sd 0.2921465 
 bootstrap upper ci 1.155397 
 bootstrap lower ci 0.01018276 
 [1] "Q5~Q2.g1, Q4~Q5.g1, Follows_AI~Q4.g1"
-0.071 sd: 0.156 [ -0.234 ,  0.376 ] 
+0.07096526 sd: 0.1555892 [ -0.2339896 ,  0.3759201 ] 
 original regression coef 0.07096526 
 bootstrap sd 0.1555892 
 bootstrap upper ci 0.3759201 
 bootstrap lower ci -0.2339896 
 [1] "Follows_AI~Q2.g2"
-0.032 sd: 0.328 [ -0.61 ,  0.674 ] 
+0.03158236 sd: 0.3275598 [ -0.6104348 ,  0.6735995 ] 
 original regression coef 0.03158236 
 bootstrap sd 0.3275598 
 bootstrap upper ci 0.6735995 
 bootstrap lower ci -0.6104348 
 [1] "Q4~Q2.g2, Follows_AI~Q4.g2"
--0.363 sd: 0.224 [ -0.801 ,  0.075 ] 
+-0.3627402 sd: 0.2235111 [ -0.8008219 ,  0.07534159 ] 
 original regression coef -0.3627402 
 bootstrap sd 0.2235111 
 bootstrap upper ci 0.07534159 
 bootstrap lower ci -0.8008219 
 [1] "Q5~Q2.g2, Follows_AI~Q5.g2"
-0.333 sd: 0.255 [ -0.167 ,  0.833 ] 
+0.3333923 sd: 0.2550631 [ -0.1665315 ,  0.833316 ] 
 original regression coef 0.3333923 
 bootstrap sd 0.2550631 
 bootstrap upper ci 0.833316 
 bootstrap lower ci -0.1665315 
 [1] "Q5~Q2.g2, Q4~Q5.g2, Follows_AI~Q4.g2"
--0.042 sd: 0.041 [ -0.122 ,  0.038 ] 
+-0.04229616 sd: 0.04086265 [ -0.122387 ,  0.03779464 ] 
 original regression coef -0.04229616 
 bootstrap sd 0.04086265 
 bootstrap upper ci 0.03779464 
@@ -159,10 +159,10 @@ original regression coef -0.5386085
 bootstrap sd 0.4787637 
 bootstrap upper ci 0.3997683 
 bootstrap lower ci -1.476985 
--0.539 sd: 0.479 [ -1.477 ,  0.4 ] 
+-0.5386085 sd: 0.4787637 [ -1.476985 ,  0.3997683 ] 
 [1] "Incorrect.Follows_AI~Q2"
 original regression coef -0.04006168 
 bootstrap sd 0.3876137 
 bootstrap upper ci 0.7196611 
 bootstrap lower ci -0.7997845 
--0.04 sd: 0.388 [ -0.8 ,  0.72 ] 
+-0.04006168 sd: 0.3876137 [ -0.7997845 ,  0.7196611 ] 

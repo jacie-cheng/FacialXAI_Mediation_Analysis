@@ -8,7 +8,7 @@ source("bootstrapping_functions.r")
 
 ### USER INPUTS ###
 
-input_data <- read.csv('raw_combined_ai_xai.csv')
+input_data <- read.csv('raw_ai_allqs.csv')
 
 ## DATA ##
 input_data <- subset(input_data, Follows_AI != 0)
@@ -17,14 +17,15 @@ input_data <- subset(input_data, question != 9)
 input_data <- subset(input_data, Classifier_Acc == "Correct")
 correct_data <- input_data[input_data$question %in% c(1, 3, 10, 11, 12, 16), ]
 incorrect_data <- input_data[input_data$question %in% c(2, 4, 6, 7, 13, 15), ]
-file_name <- "output/ai_correct_xai_presence.txt"
+file_name <- "output/ai_correct_ai_cohort.txt"
 sink(file_name)
 
 ## FITTING THE MODELS ##
-# sem
+# lavaan
 mod <- 
 "
-Q4 ~ Q2 + XAI_Presence
+Q5 ~ Q2
+Q4 ~ Q2 + Q5
 "
 
 fit2 <- sem(mod, incorrect_data, fixed.x = TRUE)
@@ -32,30 +33,28 @@ fit2_coef <- coef(fit2)
 names(fit2_coef) <- paste0(names(fit2_coef), ".g2")
 
 # glm
-mod2 <- "Follows_AI ~ Q2 + XAI_Presence + Q4"
+mod2 <- "Follows_AI ~ Q2 + Q4 + Q5"
 
 fit4 <- glm(mod2, family = "binomial", data = incorrect_data)
 fit4_coef = coef(fit4)
 names(fit4_coef) <- paste0("Follows_AI~",names(fit4_coef),".g2")
 
+incorrect_coef_list = c(fit2_coef, fit4_coef)
+
 summary(fit2)
 summary(fit4)
-
-incorrect_coef_list = c(fit2_coef, fit4_coef)
 
 # ---------------------------------------------------------------------------- #
 
 # path names to get coeff
+correct_path_names = list ()
 incorrect_path_names = list ()
 
 ##
-incorrect_path_names[["Incorrect.Follows_AI~Q2"]][[1]] <- c("Follows_AI~Q2.g2")
-incorrect_path_names[["Incorrect.Follows_AI~Q2"]][[2]] <- c("Q4~Q2.g2", "Follows_AI~Q4.g2")
-
-## 
-incorrect_path_names[["Incorrect.Follows_AI~XAI_Presence"]][[1]] <- c("Follows_AI~XAI_Presence.g2")
-incorrect_path_names[["Incorrect.Follows_AI~XAI_Presence"]][[2]] <- c("Q4~XAI_Presence.g2", "Follows_AI~Q4.g2")
-
+incorrect_path_names[["Hard.Follows_AI~Q2"]][[1]] <- c("Follows_AI~Q2.g2")
+incorrect_path_names[["Hard.Follows_AI~Q2"]][[2]] <- c("Q4~Q2.g2", "Follows_AI~Q4.g2")
+incorrect_path_names[["Hard.Follows_AI~Q2"]][[3]] <- c("Q5~Q2.g2", "Follows_AI~Q5.g2")
+incorrect_path_names[["Hard.Follows_AI~Q2"]][[4]] <- c("Q5~Q2.g2", "Q4~Q5.g2", "Follows_AI~Q4.g2")
 
 # ---------------------------------------------------------------------------- #
 

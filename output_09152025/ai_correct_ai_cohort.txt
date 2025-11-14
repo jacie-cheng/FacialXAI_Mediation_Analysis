@@ -53,25 +53,25 @@ Number of Fisher Scoring iterations: 6
 
 Original matrix size: 80 4[1] "DIRECT AND INDIRECT EFFECTS"
 [1] "Follows_AI~Q2.g2"
--2.43 sd: 0.51 [ -3.429 ,  -1.431 ] 
+-2.42999 sd: 0.5098883 [ -3.429371 ,  -1.430609 ] 
 original regression coef -2.42999 
 bootstrap sd 0.5098883 
 bootstrap upper ci -1.430609 
 bootstrap lower ci -3.429371 
 [1] "Q4~Q2.g2, Follows_AI~Q4.g2"
--0.149 sd: 0.126 [ -0.396 ,  0.098 ] 
+-0.1488616 sd: 0.1259779 [ -0.3957784 ,  0.09805515 ] 
 original regression coef -0.1488616 
 bootstrap sd 0.1259779 
 bootstrap upper ci 0.09805515 
 bootstrap lower ci -0.3957784 
 [1] "Q5~Q2.g2, Follows_AI~Q5.g2"
-1.413 sd: 0.381 [ 0.668 ,  2.159 ] 
+1.413362 sd: 0.3805312 [ 0.6675205 ,  2.159203 ] 
 original regression coef 1.413362 
 bootstrap sd 0.3805312 
 bootstrap upper ci 2.159203 
 bootstrap lower ci 0.6675205 
 [1] "Q5~Q2.g2, Q4~Q5.g2, Follows_AI~Q4.g2"
--0.183 sd: 0.147 [ -0.471 ,  0.105 ] 
+-0.182931 sd: 0.1467203 [ -0.4705028 ,  0.1046408 ] 
 original regression coef -0.182931 
 bootstrap sd 0.1467203 
 bootstrap upper ci 0.1046408 
@@ -82,4 +82,4 @@ original regression coef -1.348421
 bootstrap sd 0.5487056 
 bootstrap upper ci -0.272958 
 bootstrap lower ci -2.423884 
--1.348 sd: 0.549 [ -2.424 ,  -0.273 ] 
+-1.348421 sd: 0.5487056 [ -2.423884 ,  -0.272958 ] 
